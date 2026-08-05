@@ -1,0 +1,39 @@
+# Definition of Done
+
+## Code
+
+- No inline CSS
+- No inline JS
+- No duplicate logic
+- Modular architecture
+- No dead code
+
+## Design
+
+- Matches PaintBharat branding
+- Proper whitespace
+- Correct typography
+- Correct SVG logo
+
+## Accessibility
+
+- Keyboard accessible
+- Screen-reader friendly
+- WCAG AA
+
+## Responsive
+
+- 375
+- 768
+- 1024
+- 1440+
+
+## Lighthouse
+
+Performance ≥90
+
+Accessibility ≥95
+
+SEO ≥95
+
+Best Practices ≥95

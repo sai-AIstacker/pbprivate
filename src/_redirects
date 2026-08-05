@@ -1,0 +1,17 @@
+# Netlify Redirects — all clean URLs serve index.html (SPA routing)
+/home                   /index.html             200
+/how-it-works           /index.html             200
+/services               /index.html             200
+/for-investors          /index.html             200
+/get-involved           /index.html             200
+/get-in-touch           /index.html             200
+/faq                    /index.html             200
+/questions              /index.html             200
+
+# Form thank-you pages
+/thank-you/investor     /thank-you/investor/index.html  200
+/thank-you/customer     /thank-you/customer/index.html  200
+/thank-you/partner      /thank-you/partner/index.html   200
+
+# Catch-all fallback
+/*                      /index.html             200

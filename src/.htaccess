@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# Serve existing files and directories normally
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route all clean URL paths to index.html
+RewriteRule ^(home|how-it-works|services|for-investors|get-involved|get-in-touch|faq|questions)$ index.html [L]
+
+# Catch-all fallback
+RewriteRule ^ index.html [L]

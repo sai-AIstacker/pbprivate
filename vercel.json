@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/home",          "destination": "/src/index.html" },
+    { "source": "/how-it-works",  "destination": "/src/index.html" },
+    { "source": "/services",      "destination": "/src/index.html" },
+    { "source": "/for-investors", "destination": "/src/index.html" },
+    { "source": "/get-involved",  "destination": "/src/index.html" },
+    { "source": "/get-in-touch",  "destination": "/src/index.html" },
+    { "source": "/faq",           "destination": "/src/index.html" },
+    { "source": "/questions",     "destination": "/src/index.html" },
+    { "source": "/(.*)",          "destination": "/src/index.html" }
+  ]
+}
